@@ -1,0 +1,41 @@
+{
+	"name": "libros_api",
+	"version": "1.0.0",
+	"description": "rest api for libros_api.org",
+	"main": "src/bin/www.js",
+	"scripts": {
+		"start": "ENV=production node src/bin/www.js",
+		"dev": "ENV=development nodemon src/bin/www.js",
+		"test": "ENV=testing jest",
+		"format": "prettier --write"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"cors": "^2.8.5",
+		"dotenv": "^10.0.0",
+		"express": "^4.17.1",
+		"express-fileupload": "^1.2.1",
+		"formidable": "^1.2.2",
+		"jsonwebtoken": "^8.5.1",
+		"morgan": "^1.10.0",
+		"multer": "^1.4.2",
+		"mysql2": "^2.3.0",
+		"node-fetch": "^2.6.6",
+		"nodemailer": "^6.6.0",
+		"string-similarity": "^4.0.4"
+	},
+	"devDependencies": {
+		"@types/jest": "^29.2.0",
+		"eslint": "^7.32.0",
+		"eslint-config-airbnb-base": "^14.2.1",
+		"eslint-config-google": "^0.14.0",
+		"eslint-config-standard": "^16.0.3",
+		"eslint-plugin-import": "^2.24.1",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-promise": "^5.1.0",
+		"jest": "^27.1.0",
+		"nodemon": "^2.0.7"
+	}
+}
