@@ -12,7 +12,7 @@ Requisitos del sistema
   2 - Correr el script libro.sql
   3 - Configurar los parametros de conexión en la ruta: src/config/.env
   4 - Importar fichero Libros.postman_collection.json en el Postman
-
+  
 - Preparando el Proyecto
   1 - Si yarn no está instalado, puede usar "npm i yarn"
   2 - Después de clonar o descargar, use "yarn install" para actualizar las dependencias
