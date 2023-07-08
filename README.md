@@ -18,4 +18,4 @@ Preparando el Proyecto
 
 - Si yarn no está instalado, puede usar "npm i yarn"
 - Después de clonar o descargar, use "yarn install" para actualizar las dependencias
-- Para iniciar el proyecto de reacción, ejecute "yarn start"
+- Para iniciar el proyecto, ejecute "yarn start"
