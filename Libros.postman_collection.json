@@ -1,0 +1,197 @@
+{
+	"info": {
+		"_postman_id": "6c947c7e-3c61-453a-9369-32abe2594953",
+		"name": "Libros",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Mostrar Todos",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkbDqUxpeCBQw6lyZXogSGVybsOhbmRleiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL3NpZCI6IjEiLCJJZENsaWVudGUiOiI4OTYwIiwiQ29tcGFueU5hbWUiOiJBWkNVQkEiLCJNb25lZGEiOiJcIjFcIiIsIkNvbXBhbnkiOiJBWkNVQkEiLCJBdXRlbnRpY2FjaW9uSldUIjoidHJ1ZSIsInJvbGUiOlsiYWRtaW4iLCJ2Y29ycmVvIiwiZGVzdGluYXRhcmlvX2xpYnJlIiwiYWRtaW5fbHAiLCJhbHRjbGkiLCJtb2RjbGkiLCJtb2RpZF9lcnAiLCJ2ZGVzZHVwIiwiZGVsZV9jbGllIiwidnRyYW5zZmUiLCJkZWFkZmlsZXIiLCJtb2RpX2FjdGlfY2RlIiwibW9kaV9kZXNjX21heF9hdXRvIiwibW9kaV9kZXNjX2RlZmEiLCJtb2RpX2xwIiwidHJlZV9kb2NzIiwidnN0YXRwb3J0Iiwidm9wbyIsInZwYWdvcyIsIm1vZGloaXN0Iiwidmhpc3RvIiwiZWxpY29uIiwibW9kY29uIiwiYWx0Y29uIiwiZGVsZW9wbyIsIm1vZHByZWMiLCJtb2RkZXNjIiwiYXV0b3JpemFfZGVzYyIsIm1vZGlfdGMiLCJtb2RpX3RlbXBsX29wbyIsInZwbGFudGl3IiwibWFrZV9wYXltZW50IiwidnBsYW50aSIsInByb2dfY2FtcCIsInBvbGxfdmlldyIsInJlbGVhc2VfcG9sbCIsImRlbGVfcG9sbCIsImFkbWluX3BvbGwiLCJhZG1pbl9iaSIsIm1vbml0b3IiLCJleF9jYW1wYW5pYSIsInZjYW1wYW5pYSIsInRyZWVfZG9jc19hZGRfZmlsZSIsInRyZWVfZG9jc19kZWxldGVfZmlsZSIsInRyZWVfZG9jc19yZW5hbWVfZmlsZSIsImltcF9jdGVzIiwiYWNjX3BfY3RlcyIsIm9wb193aGF0cyIsImNvbnRhY3Rfd2hhdHMiLCJhZG1pbl9nYWxsZXJ5IiwiZW5jdV9yZXNwIl0sIm5iZiI6MTY4MzE1NjIyMCwiZXhwIjoxNjgzMTY3MDIwLCJpYXQiOjE2ODMxNTYyMjB9.V_MahqNb7ARUpy_o3G6ITJpwnTR7CM-55H25e9UhSSY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "{{url}}",
+					"host": [
+						"{{url}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Mostrar Uno",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkbDqUxpeCBQw6lyZXogSGVybsOhbmRleiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL3NpZCI6IjEiLCJJZENsaWVudGUiOiI4OTYwIiwiQ29tcGFueU5hbWUiOiJBWkNVQkEiLCJNb25lZGEiOiJcIjFcIiIsIkNvbXBhbnkiOiJBWkNVQkEiLCJBdXRlbnRpY2FjaW9uSldUIjoidHJ1ZSIsInJvbGUiOlsiYWRtaW4iLCJ2Y29ycmVvIiwiZGVzdGluYXRhcmlvX2xpYnJlIiwiYWRtaW5fbHAiLCJhbHRjbGkiLCJtb2RjbGkiLCJtb2RpZF9lcnAiLCJ2ZGVzZHVwIiwiZGVsZV9jbGllIiwidnRyYW5zZmUiLCJkZWFkZmlsZXIiLCJtb2RpX2FjdGlfY2RlIiwibW9kaV9kZXNjX21heF9hdXRvIiwibW9kaV9kZXNjX2RlZmEiLCJtb2RpX2xwIiwidHJlZV9kb2NzIiwidnN0YXRwb3J0Iiwidm9wbyIsInZwYWdvcyIsIm1vZGloaXN0Iiwidmhpc3RvIiwiZWxpY29uIiwibW9kY29uIiwiYWx0Y29uIiwiZGVsZW9wbyIsIm1vZHByZWMiLCJtb2RkZXNjIiwiYXV0b3JpemFfZGVzYyIsIm1vZGlfdGMiLCJtb2RpX3RlbXBsX29wbyIsInZwbGFudGl3IiwibWFrZV9wYXltZW50IiwidnBsYW50aSIsInByb2dfY2FtcCIsInBvbGxfdmlldyIsInJlbGVhc2VfcG9sbCIsImRlbGVfcG9sbCIsImFkbWluX3BvbGwiLCJhZG1pbl9iaSIsIm1vbml0b3IiLCJleF9jYW1wYW5pYSIsInZjYW1wYW5pYSIsInRyZWVfZG9jc19hZGRfZmlsZSIsInRyZWVfZG9jc19kZWxldGVfZmlsZSIsInRyZWVfZG9jc19yZW5hbWVfZmlsZSIsImltcF9jdGVzIiwiYWNjX3BfY3RlcyIsIm9wb193aGF0cyIsImNvbnRhY3Rfd2hhdHMiLCJhZG1pbl9nYWxsZXJ5IiwiZW5jdV9yZXNwIl0sIm5iZiI6MTY4MzE1NjIyMCwiZXhwIjoxNjgzMTY3MDIwLCJpYXQiOjE2ODMxNTYyMjB9.V_MahqNb7ARUpy_o3G6ITJpwnTR7CM-55H25e9UhSSY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "{{url}}1",
+					"host": [
+						"{{url}}1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear Libro",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "titulo",
+							"value": "Harry Potter",
+							"type": "default"
+						},
+						{
+							"key": "autor",
+							"value": "J. K. Rowling",
+							"type": "text"
+						},
+						{
+							"key": "ano_publicacion",
+							"value": "1997",
+							"type": "text"
+						},
+						{
+							"key": "isbn",
+							"value": "HP",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{url}}",
+					"host": [
+						"{{url}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Editar Libro",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "titulo",
+							"value": "Harry Potterd",
+							"type": "default"
+						},
+						{
+							"key": "autor",
+							"value": "J. K. Rowlingds",
+							"type": "text"
+						},
+						{
+							"key": "ano_publicacion",
+							"value": "1997",
+							"type": "text"
+						},
+						{
+							"key": "isbn",
+							"value": "HPd",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{url}}1",
+					"host": [
+						"{{url}}1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar Libro",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "{{url}}/1",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "http://localhost:3003/libros/\n",
+			"type": "default"
+		}
+	]
+}
